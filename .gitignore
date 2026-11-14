@@ -1,33 +1,22 @@
-README.md
+# Archivos de entorno y credenciales (¡NUNCA SUBIR!)
+.env
+.env*
+
+# Compilados de Java / Maven
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Archivos y carpetas de IntelliJ IDEA
+.idea/
 *.iml
-*.ipr
+/shelf/
+/workspace.xml
+/httpRequests/
+/queries/
+/dataSources/
+/dataSources.local.xml
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+# Logs y archivos del sistema
+*.log
+.DS_Store
+Thumbs.db
